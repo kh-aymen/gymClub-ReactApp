@@ -1,0 +1,98 @@
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4rem;
+    padding: 0 2rem;
+    gap: 4rem;
+    position: relative;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    background: var(--caloryCard);
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+}
+
+.plan:nth-child(2) {
+    background: var(--planCard);
+    transform: scale(1.1);
+
+}
+
+.plan>svg {
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+
+.plans>:nth-child(2)>svg {
+    fill: var(--white);
+}
+
+.plans>:nth-child(2)>button {
+    color: var(--orange);
+}
+
+.plan>:nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(5) {
+    font-size: 0.8rem;
+}
+
+.features {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.feature {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.feature>img {
+    width: 1rem;
+}
+
+.blur-p1 {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0;
+}
+
+.blur-p2 {
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .plans {
+        flex-direction: column;
+    }
+}

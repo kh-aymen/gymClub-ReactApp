@@ -1,0 +1,54 @@
+.footer-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer-container>hr {
+    border: 1px solid var(--lightgray);
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer>img {
+    width: 2rem;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logo-f>img {
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.blur-f1 {
+    background: red;
+    right: 15%;
+    bottom: 0;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    height: 12rem;
+    width: 26rem;
+}
+
+.blur-f2 {
+    background: #ff7300;
+    left: 15%;
+    bottom: 0;
+    -webkit-filter: blur(200px);
+    filter: blur(200px);
+    height: 12rem;
+    width: 26rem;
+}
